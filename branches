@@ -1,0 +1,48 @@
+<html>
+<body style="background-color:#CCCCFF">
+ <table cellspacing=15>
+ <tr><td> <a href="Suspence.html" target="f32">Suspence </a></td></tr>
+ <tr><td><a href="Thriller.html" target="f32"> Thriller </a> </td></tr>
+ <tr><td><a href="Horror.html" target="f32">Horror </a></td></tr>
+ <tr><td><a href="Poetry.html" target="f32"> Poetry </a> </td></tr>
+ </table>
+ </body>
+<style>
+    body {
+        background-color: #CCCCFF;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    table {
+        margin: auto;
+    }
+
+    tr {
+        margin: 10px;
+    }
+
+    td {
+        padding: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+        display: block;
+        padding: 10px;
+        border: 1px solid #666;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    a:hover {
+        background-color: #666;
+        color: #FFF;
+    }
+</style>
+</html>
