@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+ body {
+ margin: 0;
+ padding: 0;
+ }
+ #container {
+ display: grid;
+ grid-template-rows: 15% 9% 76%;
+height: 100vh;
+ border: 1px solid black;
+ }
+ #top-frame {
+ grid-row: 1;
+ display: grid;
+ grid-template-columns: 20% 80%;
+ border-bottom: 1px solid black;
+ }
+ #logo-frame {
+ border-right: 1px solid black;
+ }
+ #title-frame {
+ /* Add your styles here */
+ }
+ #menu-frame {
+ grid-row: 3;
+ /* Add your styles here */
+ }
+ #bottom-frame {
+ grid-row: 3;
+ display: grid;
+ grid-template-columns: 20% 80%;
+ border-top: 1px solid black;
+ }
+ #branches-frame {
+ /* Add your styles here */
+ }
+#homedes-frame {
+ </style>
+</head>
+<body>
+ <div id="container">
+ <div id="top-frame">
+ <div id="logo-frame">
+ <iframe src="logo.html" scrolling="no"></iframe>
+ </div>
+ <div id="title-frame">
+ <iframe src="title.html"></iframe>
+ </div>
+ </div>
+ <div id="menu-frame">
+ <iframe src="menu.html" name="f2" scrolling="no"></iframe>
+ </div>
+ <div id="bottom-frame">
+ <div id="branches-frame">
+ <iframe src="branches.html" name="f31"></iframe>
+ </div>
+ <div id="homedes-frame">
+ <iframe src="homedes.html" name="f32"></iframe>
+ </div>
+ </div>
+ </div>
+</body>
+</html>
