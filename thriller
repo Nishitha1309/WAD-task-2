@@ -1,0 +1,18 @@
+<html>
+<style>
+    body {
+        background-color: #7BCCB5;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    center {
+        font-style: italic;
+        color: blue;
+    }
+</style>
+<body style="background-color: #7BCCB5">
+<center><i> <font color="blue"> Thriller books are yet to be published</i> </font></center>
+</body>
+</html>
