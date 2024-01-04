@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations Catalog - Novel Nook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .catalog {
+            display: grid;
+            gap: 20px;
+        }
+        .destination {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .destination img {
+            max-width: 20%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body style="background-color:#98AFC7">
+
+
+<div class="catalog">
+    <div class="destination">
+        <img src="silent_patient.jpg" alt="silent patient">
+        <h2>SILENT PATIENT</h2>
+        <p>Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia.</p>
+        <a href="destination1.html"></a>
+    </div>
+<div align='right'><input type='button' value='Add To Cart' 
+onclick='fun()'</div>
+
+    <div class="destination">
+        <img src="Dont_turn_around.jpg" alt="Dont turn around">
+        <h2>Dont turn around</h2>
+        <p>Sixteen-year-old Noa has been a victim of the system ever since her parents died. Now living off the grid and trusting no one, she uses her computer-hacking skills to stay safely anonymous and alone.</p>
+        <a href="destination2.html"></a>
+    </div>
+<div align='right'><input type='button' value='Add To Cart' 
+onclick='fun()'</div>
+    
+    <div class="destination">
+        <img src="only_murder.jpg" alt="paris">
+        <h2>PARIS</h2>
+        <p>Two women are found dead in a remote area of Northern Alaska, near Sadie's hometown, floating under the ice, their bodies preserved, much the same way Sadie's own murdered sister was found—a memory that still plagues her.</p>
+        <a href="destination2.html"></a>
+    </div>
+
+<div align='right'><input type='button' value='Add To Cart' 
+onclick='fun()'</div>
+</div>
+
+</body>
+</html>
