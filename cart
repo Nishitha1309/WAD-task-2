@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books cart - Novel website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .cart-total {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body style="background-color:#E5E4E2">
+
+<h1>Books cart</h1>
+<table id="cartTable">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<div class="cart-total">
+    Total: $<span id="totalAmount">0.00</span>
+</div>
+<script>
+    // Sample data for cart items
+    var cartItems = [
+        { name: 'Silent patient', price: 800, quantity: 3 },
+        { name: 'Dont turn around', price: 600, quantity: 1 },
+    ];
+    // Function to display cart items
+    function displayCart() {
+        var tableBody = document.getElementById('cartTable').getElementsByTagName('tbody')[0];
+        var totalAmount = 0;
+
+        // Clear existing rows
+        tableBody.innerHTML = '';
+
+        // Loop through cart items and display in the table
+        for (var i = 0; i < cartItems.length; i++) {
+            var item = cartItems[i];
+            var row = tableBody.insertRow(i);
+
+            // Display item details in the row
+            row.insertCell(0).innerHTML = item.name;
+            row.insertCell(1).innerHTML = '$' + item.price.toFixed(2);
+            row.insertCell(2).innerHTML = item.quantity
+            var total = item.price * item.quantity;
+            row.insertCell(3).innerHTML = '$' + total.toFixed(2);
+
+            // Add a button to remove the item from the cart
+            var removeButton = document.createElement('button');
+            removeButton.innerHTML = 'Remove';
+            removeButton.addEventListener('click', createRemoveItemHandler(i));
+            row.insertCell(4).appendChild(removeButton);
+
+            // Update the total amount
+            totalAmount += total;
+        }
+        // Display the total amount
+        document.getElementById('totalAmount').innerHTML = totalAmount.toFixed(2);
+    }
+    // Function to create a handler for removing an item from the cart
+    function createRemoveItemHandler(index) {
+        return function() {
+            cartItems.splice(index, 1); // Remove the item from the cart
+            displayCart(); // Update the cart display
+        };
+    }
+    // Initial display of the cart
+    displayCart();
+</script>
+</body>
+</html>
