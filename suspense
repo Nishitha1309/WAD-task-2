@@ -1,0 +1,18 @@
+<html>
+<style>
+    body {
+        background-color: #B3D9D9;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    center {
+        font-style: italic;
+        color: red;
+    }
+</style>
+<body style="background-color: #B3D9D9">
+<center><i> <font color="red"> silent patient , Dont turn around , only murder </i> </font></center>
+</body>
+</html>
