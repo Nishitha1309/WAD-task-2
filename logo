@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #FFE4C4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px; /* Optional: adds a rounded border to the image */
+    }
+  </style>
+</head>
+<body>
+  <img src="C:\Users\HP\OneDrive\Documents\WAD\bookstore.jpg" alt="Bookstore Image">
+</body>
+</html>
