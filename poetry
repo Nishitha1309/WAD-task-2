@@ -1,0 +1,19 @@
+<html>
+<style>
+    body {
+        background-color: #C0C0C0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    center {
+        font-style: italic;
+        color: black;
+    }
+</style>
+<body style="background-color:#C0C0C0">
+<center><i> <font color="black"> Poetry books are yet to be published</i> </font></center>
+</body>
+</html>
