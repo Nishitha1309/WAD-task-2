@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+   background-color: #ADD8E6;
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      color: #000;
+    }
+    center {
+      text-decoration: underline;
+      font-size: 24px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <center><u>NOVEL NOOK BOOK STORE</u></center>
+  <br><br>
+  <p>WE PROVIDE GOOD QUALITY BOOKS. NO FIRST COPIES. FROM TIMELESS CLASSICS TO CONTEMPORARY GEMS, OUR SHELVES BECKON BOOK LOVERS WITH A SYMPHONY OF GENRES.</p>
+</body>
+</html>
