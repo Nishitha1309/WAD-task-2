@@ -1,0 +1,18 @@
+<html>
+<body>
+<table width="100%">
+<tr>
+<td> <a href="homedes.html" target="f32">Home </a></td>
+<td> <a href="login.html" target="f32">Login </a></td>
+ <td> <a href="registration.html" target="f32">Registration</a></td>
+<td> <a href="catalogue.html" target="f32">Catalogue </a></td>
+<td> <a href="cart.html" target="f32">Cart </a></td>
+<td> <a href="contactus.html" target="f32">contact us </a></td>
+ </tr>
+ </table>
+ </body>
+</html>
+<html>
+<body>
+<center> <u> Novel Nook </u></center>
+<p>This website contains various books. </body></html>
